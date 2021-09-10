@@ -1,4 +1,75 @@
-*{
-    margin: 0;
-    padding: 0;
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+}
+.container {
+  width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+@mixin text-base {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+}
+.topcover {
+  width: 100%;
+  height: 83px;
+  background-image: url("./assets/cover.png");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.topsection {
+  &__left {
+    display: flex;
+    &__imgbox {
+      position: relative;
+      .topsection__left__imgbox__profile {
+        margin-top: -40px;
+      }
+      .topsection__left__imgbox__medal {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+      }
+    }
+    &__content {
+      padding-left: 20px;
+      padding-top: 20px;
+      &__name{
+          font-size: 25px;
+          font-weight: 800;
+          color: #454749;
+          display: flex;
+          flex-direction: row;
+          align-items: baseline;
+  
+          div{
+              margin-right: 10px;
+          }
+          img{
+              width: 17px;
+              height: 17px;
+          }
+      }
+      &__designation{
+          font-size: 18px;
+          font-weight: 600;
+          color: #494549;
+      }
+    }
+  }
+  &__right{
+      padding-top: 20px;
+      color: #505050;
+      @include text-base;
+      text-align: right;
+
+  }
 }
