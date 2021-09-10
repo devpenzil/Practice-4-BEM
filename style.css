@@ -6,6 +6,7 @@
 
 body {
   font-family: "Open Sans", sans-serif;
+  box-sizing: border-box;
 }
 
 .container {
@@ -69,4 +70,126 @@ body {
   font-weight: 600;
   line-height: 24px;
   text-align: right;
+}
+
+.mainbody {
+  margin-top: 50px;
+}
+
+.boxes {
+  width: 610px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.boxes__box {
+  width: 140px;
+  height: 100px;
+  padding: 10px 10px;
+  background-color: #F7F7FF;
+  margin-right: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.boxes__box__head {
+  font-size: 20px;
+  font-weight: 700;
+  color: #3E4E7A;
+}
+.boxes__box__desc {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #4C505B;
+}
+
+.about {
+  width: 609px;
+  margin-top: 40px;
+}
+.about__head {
+  font-size: 18px;
+  font-weight: 700;
+  color: #454749;
+}
+.about__desc {
+  margin-top: 18px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #737374;
+  line-height: 19px;
+  width: 609px;
+}
+
+.skills {
+  margin-top: 40px;
+  width: 609px;
+}
+.skills__head {
+  font-size: 18px;
+  font-weight: 700;
+  color: #454749;
+}
+.skills__chips {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.skills__chips__chip {
+  background-color: #437CEB;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 6px 19px;
+  border-radius: 3px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.language {
+  margin-top: 40px;
+}
+.language__head {
+  font-size: 18px;
+  font-weight: 700;
+  color: #454749;
+}
+.language__chips {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.language__chips__chip {
+  background-color: #437CEB;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 6px 19px;
+  border-radius: 3px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.workhistory {
+  width: 546px;
+}
+.workhistory__head {
+  font-size: 18px;
+  font-weight: 700;
+  color: #454749;
+}
+.workhistory__content {
+  background-color: #FAFAFA;
+  width: 546px;
+  height: 238px;
+  margin-top: 15px;
 }/*# sourceMappingURL=style.css.map */
