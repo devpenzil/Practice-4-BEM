@@ -176,5 +176,133 @@ body {
         width: 546px;
         height: 238px;
         margin-top: 15px;
+        border-radius: 5px;
+        padding: 10px 10px;
+        display: flex;
+        position: relative;
+        
+        &__timelinebox{
+            width: 43px;
+            position: relative;
+            &__timeline::after{
+                content: '';
+                position: absolute;
+                width: 1px;
+                background-color: #DEDEDE;
+                top: 0;
+                bottom: 0;
+                left:50%;
+                margin-left: -3px;
+            }
+        }
+        &__contentbox{
+            &__channel{
+                position: relative;
+                padding-bottom: 30px;
+                &__circle{
+                    position: absolute;
+                    width: 10px;
+                    height: 10px;
+                    background-color: white;
+                    border: 2px solid #DEDEDE;
+                    border-radius: 50%;
+                    left: -31px;
+                    top: 8px;
+                }
+                &__circle--active{
+                    position: absolute;
+                    width: 27px;
+                    height: 27px;
+                    background-image: url('./assets/work.png');
+                    left: -38px;
+                    top: 8px;
+                }
+                &__company{
+                    font-size: 18px;
+                    font-weight: 700;
+                    color: #454749;
+                }
+                &__desc{
+                    @include text-base;
+                    color: #505050;
+                }
+            }
+            
+        }
+    }
+}
+.education{
+    width: 546px;
+    margin-top: 40px;
+    &__head{
+        @include section-head;
+    }
+    &__content{
+        background-color: #FAFAFA;
+        width: 546px;
+        height: 238px;
+        margin-top: 15px;
+        border-radius: 5px;
+        padding: 10px 10px;
+        display: flex;
+        position: relative;
+        
+        &__timelinebox{
+            width: 43px;
+            position: relative;
+            &__timeline::after{
+                content: '';
+                position: absolute;
+                width: 1px;
+                background-color: #DEDEDE;
+                top: 0;
+                bottom: 0;
+                left:50%;
+                margin-left: -3px;
+            }
+        }
+        &__contentbox{
+            &__channel{
+                position: relative;
+                padding-bottom: 30px;
+                &__circle{
+                    position: absolute;
+                    width: 10px;
+                    height: 10px;
+                    background-color: white;
+                    border: 2px solid #DEDEDE;
+                    border-radius: 50%;
+                    left: -31px;
+                    top: 8px;
+                }
+                &__circle--active{
+                    position: absolute;
+                    width: 27px;
+                    height: 27px;
+                    background-image: url('./assets/work.png');
+                    left: -38px;
+                    top: 8px;
+                }
+                &__company{
+                    font-size: 18px;
+                    font-weight: 700;
+                    color: #454749;
+                }
+                &__desc{
+                    @include text-base;
+                    color: #505050;
+                }
+            }
+            
+        }
+    }
+}
+.attachment{
+    margin-top: 40px;
+    &__head{
+        @include section-head;
+    }
+    &__downloads{
+        display: flex;
     }
 }

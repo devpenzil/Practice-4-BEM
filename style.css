@@ -192,4 +192,134 @@ body {
   width: 546px;
   height: 238px;
   margin-top: 15px;
+  border-radius: 5px;
+  padding: 10px 10px;
+  display: flex;
+  position: relative;
+}
+.workhistory__content__timelinebox {
+  width: 43px;
+  position: relative;
+}
+.workhistory__content__timelinebox__timeline::after {
+  content: "";
+  position: absolute;
+  width: 1px;
+  background-color: #DEDEDE;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+.workhistory__content__contentbox__channel {
+  position: relative;
+  padding-bottom: 30px;
+}
+.workhistory__content__contentbox__channel__circle {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  border: 2px solid #DEDEDE;
+  border-radius: 50%;
+  left: -31px;
+  top: 8px;
+}
+.workhistory__content__contentbox__channel__circle--active {
+  position: absolute;
+  width: 27px;
+  height: 27px;
+  background-image: url("./assets/work.png");
+  left: -38px;
+  top: 8px;
+}
+.workhistory__content__contentbox__channel__company {
+  font-size: 18px;
+  font-weight: 700;
+  color: #454749;
+}
+.workhistory__content__contentbox__channel__desc {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #505050;
+}
+
+.education {
+  width: 546px;
+  margin-top: 40px;
+}
+.education__head {
+  font-size: 18px;
+  font-weight: 700;
+  color: #454749;
+}
+.education__content {
+  background-color: #FAFAFA;
+  width: 546px;
+  height: 238px;
+  margin-top: 15px;
+  border-radius: 5px;
+  padding: 10px 10px;
+  display: flex;
+  position: relative;
+}
+.education__content__timelinebox {
+  width: 43px;
+  position: relative;
+}
+.education__content__timelinebox__timeline::after {
+  content: "";
+  position: absolute;
+  width: 1px;
+  background-color: #DEDEDE;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+.education__content__contentbox__channel {
+  position: relative;
+  padding-bottom: 30px;
+}
+.education__content__contentbox__channel__circle {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  border: 2px solid #DEDEDE;
+  border-radius: 50%;
+  left: -31px;
+  top: 8px;
+}
+.education__content__contentbox__channel__circle--active {
+  position: absolute;
+  width: 27px;
+  height: 27px;
+  background-image: url("./assets/work.png");
+  left: -38px;
+  top: 8px;
+}
+.education__content__contentbox__channel__company {
+  font-size: 18px;
+  font-weight: 700;
+  color: #454749;
+}
+.education__content__contentbox__channel__desc {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #505050;
+}
+
+.attachment {
+  margin-top: 40px;
+}
+.attachment__head {
+  font-size: 18px;
+  font-weight: 700;
+  color: #454749;
+}
+.attachment__downloads {
+  display: flex;
 }/*# sourceMappingURL=style.css.map */
