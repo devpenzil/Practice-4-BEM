@@ -299,10 +299,37 @@ body {
 }
 .attachment{
     margin-top: 40px;
+    margin-bottom: 50px;
     &__head{
         @include section-head;
     }
     &__downloads{
         display: flex;
+        margin-top: 10px;
+
+        &__button{
+            font-size: 14px;
+            background-color: #F4F9FE;
+            font-weight: 600;
+            color: #64707B;
+            margin-right: 20px;
+            padding: 6px 19px;
+            border: 1px solid #D3E1EF;
+            border-radius: 3px;
+        }
+    }
+}
+
+.hr{
+        margin: auto;
+        width: 1200px;
+        height: 2px;
+        background-color: #F1F1F1;
+        
+}
+.portfolio{
+    margin-top: 50px;
+    &__head{
+        @include section-head;
     }
 }

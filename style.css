@@ -314,6 +314,7 @@ body {
 
 .attachment {
   margin-top: 40px;
+  margin-bottom: 50px;
 }
 .attachment__head {
   font-size: 18px;
@@ -322,4 +323,31 @@ body {
 }
 .attachment__downloads {
   display: flex;
+  margin-top: 10px;
+}
+.attachment__downloads__button {
+  font-size: 14px;
+  background-color: #F4F9FE;
+  font-weight: 600;
+  color: #64707B;
+  margin-right: 20px;
+  padding: 6px 19px;
+  border: 1px solid #D3E1EF;
+  border-radius: 3px;
+}
+
+.hr {
+  margin: auto;
+  width: 1200px;
+  height: 2px;
+  background-color: #F1F1F1;
+}
+
+.portfolio {
+  margin-top: 50px;
+}
+.portfolio__head {
+  font-size: 18px;
+  font-weight: 700;
+  color: #454749;
 }/*# sourceMappingURL=style.css.map */
