@@ -339,15 +339,27 @@ body {
 .hr {
   margin: auto;
   width: 1200px;
-  height: 2px;
-  background-color: #F1F1F1;
+  height: 0px;
+  border: 2px solid #F1F1F1;
 }
 
 .portfolio {
   margin-top: 50px;
+  margin-bottom: 50px;
 }
 .portfolio__head {
   font-size: 18px;
   font-weight: 700;
   color: #454749;
+}
+.portfolio__photos {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.portfolio__photos__photo {
+  margin-right: 10px;
+  margin-bottom: 10px;
+  width: 190px;
 }/*# sourceMappingURL=style.css.map */

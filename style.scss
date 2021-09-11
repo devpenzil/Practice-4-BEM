@@ -323,13 +323,26 @@ body {
 .hr{
         margin: auto;
         width: 1200px;
-        height: 2px;
-        background-color: #F1F1F1;
+        height: 0px;
+        border:2px solid #F1F1F1;
         
 }
 .portfolio{
     margin-top: 50px;
+    margin-bottom: 50px;
     &__head{
         @include section-head;
+    }
+    &__photos{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        &__photo{
+            margin-right: 10px;
+            margin-bottom: 10px;
+            width: 190px;
+        }
     }
 }
